@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import Product from './components/Product';
+import Product from "./components/Product";
 
 ReactDOM.render(
   <Product
@@ -10,5 +10,5 @@ ReactDOM.render(
     color="white"
     weight={210}
   />,
-  document.getElementById('global')
+  document.getElementById("global")
 );
